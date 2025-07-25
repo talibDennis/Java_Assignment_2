@@ -7,7 +7,7 @@ public class Chicken extends Animal {
   // Explicit contructor that calls 
   public Chicken(String type) {
     super(type); // calls parent's constructor
-    this.numOfEggs = super.randNum.nextInt(9) + 1; // 1-9
+    this.numOfEggs = super.randNum.nextInt(9) + 2; // 2-9
   } // constructor
 
   // getters

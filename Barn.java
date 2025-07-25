@@ -31,12 +31,12 @@ public class Barn {
     // printing barn details
     // print cows
     for(int i = 0; i < cows.size(); i++) {
-      System.out.printf("Type: %s Milk Per Day: %d (Liters)%n", cows.get(i).getType(), cows.get(i).getMilkPerDay());
+      System.out.printf("Type: %s, Milk Per Day: %dL%n", cows.get(i).getType(), cows.get(i).getMilkPerDay());
     } // cow for
 
     // print chickens
     for(int i = 0; i < chickens.size(); i++) {
-      System.out.printf("type: %s Color of Egg: %dcc%n", chickens.get(i).getType(), chickens.get(i).getEggColor());
+      System.out.printf("Type: %s, Number of Eggs: %d%n", chickens.get(i).getType(), chickens.get(i).getNumOfEggs());
     } // chickens
 
     input.close();

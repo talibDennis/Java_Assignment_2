@@ -2,22 +2,22 @@
 package animal;
 
 public class Chicken extends Animal {
-  private String eggColor;
+  private int numOfEggs;
 
   // Explicit contructor that calls 
   public Chicken(String type) {
     super(type); // calls parent's constructor
-    this.eggColor = eggColor;
+    this.numOfEggs = super.randNum.nextInt(9) + 1; // 1-9
   } // constructor
 
   // getters
-  public String getEggColor() {
-    return this.eggColor;
+  public int getNumOfEggs() {
+    return this.numOfEggs;
   }
 
   // setters
-  public void setEggColor(String eggColor) {
-    this.eggColor = eggColor;
+  public void setNumOfEggs(int numOfEggs) {
+    this.numOfEggs = numOfEggs;
   }
 
 } // class
